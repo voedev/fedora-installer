@@ -1,8 +1,13 @@
 #!/bin/bash
 
+
+# ****************************** Variables ******************************
+
 GIT_NAME=""
 GIT_EMAIL=""
 PHP_VERSION="8.1"
+
+# ***********************************************************************
 
 confirm() {
     # call with a prompt string or use a default
