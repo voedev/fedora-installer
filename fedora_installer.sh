@@ -243,21 +243,6 @@ if confirm "Install PHP (y/n)"; then
 
 	sudo dnf install php-{bcmath,xdebug,bz2,fpm,cli,common,curl,dom,exif,ftp,gd,gmp,iconv,imagick,intl,json,mbstring,opcache,posix,simplexml,soap,sockets,ssh2,tokenizer,xml,xmlreader,xmlrpc,zip,pdo,pdo_mysql}
 
-	# ************************************
-	# sudo nvim /etc/php.d/15-xdebug.ini
-	# ************************************
-	# zend_extension="/usr/lib64/php/modules/xdebug.so"
-    # xdebug.profiler_enable_trigger=1
-	# xdebug.remote_enable=1
-	# xdebug.remote_host=127.0.0.1
-	# xdebug.remote_port=9003
-	# xdebug.var_display_max_depth=10
-	# xdebug.max_nesting_level=20000000
-	# xdebug.remote_autostart=0
-	# xdebug.idekey=PHPSTORM
-	# xdebug.mode=debug
-	# ************************************
-
 	sudo systemctl restart php-fpm
 fi
 
