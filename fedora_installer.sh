@@ -247,7 +247,7 @@ if confirm "Install PHP (y/n)"; then
 	# sudo nvim /etc/php.d/15-xdebug.ini
 	# ************************************
 	# zend_extension="/usr/lib64/php/modules/xdebug.so"
-        # xdebug.profiler_enable_trigger=1
+    # xdebug.profiler_enable_trigger=1
 	# xdebug.remote_enable=1
 	# xdebug.remote_host=127.0.0.1
 	# xdebug.remote_port=9003
