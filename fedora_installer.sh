@@ -34,6 +34,7 @@ if confirm "Install the minimum set of programs? (y/n)"; then
 						gcolor3 \
 						transmission \
 						gsmartcontrol \
+						kdiskmark \
 						git \
 						htop \
 						pass \
